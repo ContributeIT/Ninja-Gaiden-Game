@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0_DevUtils">
+      <UniqueIdentifier>{9adebbda-dc6b-42ce-b186-661733471dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Core">
+      <UniqueIdentifier>{2edb76d7-8136-4c96-b970-23b2a25d5090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects">
+      <UniqueIdentifier>{7227c90c-8dae-4333-9223-74a70df22504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Game Core\10_Grid">
+      <UniqueIdentifier>{8fdea9db-cec9-47f0-a632-8dc93087f4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\20_">
+      <UniqueIdentifier>{cf9b6453-fe86-4126-bada-d161f484b74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\21_Enemies">
+      <UniqueIdentifier>{93f138b1-2ae1-45ef-bd1f-243077faa5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\22_Items">
+      <UniqueIdentifier>{a026d71c-384d-46d1-9494-4d452705fc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\21_Enemies\210_Bosses">
+      <UniqueIdentifier>{95ef60bf-5fda-4fba-8cb0-52494b849bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\22_Items\220_Drop Items">
+      <UniqueIdentifier>{1aa4a233-da0a-491f-b0bf-9dee823f1065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_Game Objects\22_Items\220_Use Items">
+      <UniqueIdentifier>{39256c95-39b8-4a5b-8d76-7a32c3ea8bad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>0_DevUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>2_Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>2_Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>2_Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTexture.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>1_Game Core\10_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCell.cpp">
+      <Filter>1_Game Core\10_Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableRect.cpp">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundBlock.cpp">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClCompile>
+    <ClCompile Include="Banshee.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdBrown.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannoneer.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineGunGuy.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordMan.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorebar.cpp">
+      <Filter>1_Game Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundBlocks.cpp">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3.cpp">
+      <Filter>2_Game Objects\21_Enemies\210_Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonBullet.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3Bullet.cpp">
+      <Filter>2_Game Objects\21_Enemies\210_Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowingStar.cpp">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClCompile>
+    <ClCompile Include="WindmillThrowingStar.cpp">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClCompile>
+    <ClCompile Include="UsableItem.cpp">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBonusPts.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFireWheelArt.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemRestorePhysicalStrength.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSpiritualStrengthPts.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemThrowingStar.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTimeFreeze.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWindmillThrowingStar.cpp">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>2_Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainer.cpp">
+      <Filter>2_Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineBullet.cpp">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXInput.h">
+      <Filter>0_DevUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>2_Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>2_Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>2_Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTexture.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>1_Game Core\10_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCell.h">
+      <Filter>1_Game Core\10_Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableRect.h">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundBlock.h">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClInclude>
+    <ClInclude Include="Banshee.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdBrown.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannoneer.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineGunGuy.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Runner.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordMan.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Scorebar.h">
+      <Filter>1_Game Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundBlocks.h">
+      <Filter>2_Game Objects\20_</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3.h">
+      <Filter>2_Game Objects\21_Enemies\210_Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonBullet.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3Bullet.h">
+      <Filter>2_Game Objects\21_Enemies\210_Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowingStar.h">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClInclude>
+    <ClInclude Include="WindmillThrowingStar.h">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClInclude>
+    <ClInclude Include="UsableItem.h">
+      <Filter>2_Game Objects\22_Items\220_Use Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBonusPts.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFireWheelArt.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemRestorePhysicalStrength.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSpiritualStrengthPts.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemThrowingStar.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTimeFreeze.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWindmillThrowingStar.h">
+      <Filter>2_Game Objects\22_Items\220_Drop Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainer.h">
+      <Filter>2_Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>2_Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineBullet.h">
+      <Filter>2_Game Objects\21_Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
